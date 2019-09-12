@@ -13,7 +13,7 @@ let package = Package(
             path: "Sources",
             
             // Headers and linking for libxml2
-            cSettings: [.headerSearchPath("$(SDKROOT)/usr/include/libxml2")],
+//            cSettings: [.headerSearchPath("$(SDKROOT)/usr/include/libxml2")],
             linkerSettings: [.linkedLibrary("xml2")]
         ),
         .testTarget(name: "FuziTests",
