@@ -1,0 +1,12 @@
+module Fuzi [system] {
+
+    header "$(SDKROOT)/usr/include/libxml2/libxml/tree.h"
+    header "$(SDKROOT)/usr/include/libxml2/libxml/parser.h"
+    header "$(SDKROOT)/usr/include/libxml2/libxml/HTMLparser.h"
+    header "$(SDKROOT)/usr/include/libxml2/libxml/xpath.h"
+    header "$(SDKROOT)/usr/include/libxml2/libxml/xpathInternals.h"
+
+    link "xml2"
+
+    export *
+}
