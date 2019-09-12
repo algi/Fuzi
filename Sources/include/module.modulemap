@@ -5,6 +5,7 @@ module Fuzi [system] {
     header "$(SDKROOT)/usr/include/libxml2/libxml/HTMLparser.h"
     header "$(SDKROOT)/usr/include/libxml2/libxml/xpath.h"
     header "$(SDKROOT)/usr/include/libxml2/libxml/xpathInternals.h"
+    header "$(SDKROOT)/usr/include/libxml2/libxml/xmlversion.h"
 
     link "xml2"
 
